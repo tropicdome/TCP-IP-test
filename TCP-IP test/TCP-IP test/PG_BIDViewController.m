@@ -16,6 +16,7 @@
 
 @synthesize textfield_IP, label_Status;
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -29,13 +30,16 @@
 }
 
 #pragma mark
+#pragma mark My functions
 - (IBAction)touchedBackground:(id)sender {
     [textfield_IP resignFirstResponder];
 }
 
 - (IBAction)button_Ping:(id)sender {
+    NSString *StatusTextOutput = @"Pinging...";
+        
     [textfield_IP resignFirstResponder];
-    [label_Status setText:@"Pinging"];
+    [label_Status setText:StatusTextOutput];
 }
 
 @end

@@ -18,6 +18,7 @@
 		427353BC1626AA2900FBF4D8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 427353BB1626AA2900FBF4D8 /* Default-568h@2x.png */; };
 		427353BF1626AA2900FBF4D8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427353BD1626AA2900FBF4D8 /* MainStoryboard.storyboard */; };
 		427353C21626AA2900FBF4D8 /* PG_BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427353C11626AA2900FBF4D8 /* PG_BIDViewController.m */; };
+		427353C91626B38200FBF4D8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427353C81626B38200FBF4D8 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		427353BE1626AA2900FBF4D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		427353C01626AA2900FBF4D8 /* PG_BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PG_BIDViewController.h; sourceTree = "<group>"; };
 		427353C11626AA2900FBF4D8 /* PG_BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PG_BIDViewController.m; sourceTree = "<group>"; };
+		427353C81626B38200FBF4D8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				427353C91626B38200FBF4D8 /* CFNetwork.framework in Frameworks */,
 				427353A61626AA2900FBF4D8 /* UIKit.framework in Frameworks */,
 				427353A81626AA2900FBF4D8 /* Foundation.framework in Frameworks */,
 				427353AA1626AA2900FBF4D8 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +76,7 @@
 		427353A41626AA2900FBF4D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				427353C81626B38200FBF4D8 /* CFNetwork.framework */,
 				427353A51626AA2900FBF4D8 /* UIKit.framework */,
 				427353A71626AA2900FBF4D8 /* Foundation.framework */,
 				427353A91626AA2900FBF4D8 /* CoreGraphics.framework */,
